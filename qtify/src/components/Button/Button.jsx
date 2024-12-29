@@ -3,7 +3,7 @@ import styles from "./Button.module.css";
 
  function Button({children}) {
     return (
-        <div style={styles.button}>
+        <div className={styles.button}>
          <button>{children}</button>
         </div>
        

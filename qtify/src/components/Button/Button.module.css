@@ -1,10 +1,13 @@
 .button{
-    font-family: 'poppins';
-    text-decoration: #34C94B;
+    text-decoration: none; /* Removed invalid value and set to 'none' */
+    color: #34C94B; /* Correctly applied text color */
     background-color: #121212;
-    border-radius: 1px;
+    border-radius: 4px; /* Adjusted for better visibility */
+    padding: 10px 20px; /* Added padding for better appearance */
+    display: inline-block; /* Ensures proper layout */
 }
 
 .button:hover{
    cursor: pointer;
+   opacity: 0.9;
 }

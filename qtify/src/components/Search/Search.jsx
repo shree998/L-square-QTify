@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Search.module.css";
-import { ReactComponent as SearchIcon } from "../../assets/Search Icon.svg";
-import useAutocomplete from "@mui/base/useAutocomplete";
+import { ReactComponent as SearchIcon } from "../../assets/Search_icon.svg";
+import {useAutocomplete} from "@mui/base/useAutocomplete";
 import { styled } from "@mui/system";
-import { truncate } from "../../helpers/helpers";
+// import { truncate } from "../../helpers/helpers";
 import { useNavigate } from "react-router-dom";
 import { Tooltip } from "@mui/material";
 
@@ -100,7 +100,7 @@ function Search({ searchData, placeholder }) {
                   <p className={styles.albumTitle}>{option.title}</p>
 
                   <p className={styles.albumArtists}>
-                    {truncate(artists.join(", "), 40)}
+                    {/* {truncate(artists.join(", "), 40)} */}
                   </p>
                 </div>
               </li>
