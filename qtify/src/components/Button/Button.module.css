@@ -1,0 +1,10 @@
+.button{
+    font-family: 'poppins';
+    text-decoration: #34C94B;
+    background-color: #121212;
+    border-radius: 1px;
+}
+
+.button:hover{
+   cursor: pointer;
+}
